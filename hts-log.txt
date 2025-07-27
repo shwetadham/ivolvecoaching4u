@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 27 Jul 2025 16:19:53 at https://websitedemos.net/business-consulting-02/?customize=template +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://websitedemos.net/business-consulting-02/?customize=template -O1 "E:\Mum" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:20:22	Error: 	"Forbidden" (403) at link https://websitedemos.net/business-consulting-02/xmlrpc.php?rsd (from https://websitedemos.net/business-consulting-02/?customize=template)
+16:20:22	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://websitedemos.net/business-consulting-02/?customize=template)
+16:20:32	Warning: 	Moved Permanently for https://websitedemos.net/business-consulting-02/?p=534
+16:20:32	Warning: 	File has moved from https://websitedemos.net/business-consulting-02/?p=534 to https://websitedemos.net/business-consulting-02/about/
+16:20:32	Warning: 	Moved Permanently for https://websitedemos.net/business-consulting-02/?p=642
+16:20:32	Warning: 	File has moved from https://websitedemos.net/business-consulting-02/?p=642 to https://websitedemos.net/business-consulting-02/services/
+16:20:32	Warning: 	Moved Permanently for https://websitedemos.net/business-consulting-02/?p=736
+16:20:32	Warning: 	File has moved from https://websitedemos.net/business-consulting-02/?p=736 to https://websitedemos.net/business-consulting-02/contact/
+16:20:33	Error: 	"Not Found" (404) at link https://websitedemos.net/business-consulting-02/wp-content/plugins/wpforms-lite/assets/pro/images/times-solid-white.svg (from https://websitedemos.net/business-consulting-02/wp-content/plugins/wpforms-lite/assets/css/frontend/classic/wpforms-base.min.css?ver=1.9.6.2)
+
+HTTrack Website Copier/3.49-2 mirror complete in 40 seconds : 167 links scanned, 160 files written (11513544 bytes overall) [5006487 bytes received at 125162 bytes/sec], 9191686 bytes transferred using HTTP compression in 108 files, ratio 22%, 27.8 requests per connection
+(3 errors, 6 warnings, 0 messages)

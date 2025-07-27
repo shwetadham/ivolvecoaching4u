@@ -869,32 +869,7 @@ class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemsco
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/business-consulting-02\/*"},{"not":{"href_matches":["\/business-consulting-02\/wp-*.php","\/business-consulting-02\/wp-admin\/*","\/business-consulting-02\/wp-content\/uploads\/sites\/777\/*","\/business-consulting-02\/wp-content\/*","\/business-consulting-02\/wp-content\/plugins\/*","\/business-consulting-02\/wp-content\/themes\/astra\/*","\/business-consulting-02\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-<div id="showcase-cta-entry-root" class="st-customizer-cta st-section-root"></div>			<script>
-				const lazyloadRunObserver = () => {
-					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
-					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
-						entries.forEach( ( entry ) => {
-							if ( entry.isIntersecting ) {
-								let lazyloadBackground = entry.target;
-								if( lazyloadBackground ) {
-									lazyloadBackground.classList.add( 'e-lazyloaded' );
-								}
-								lazyloadBackgroundObserver.unobserve( entry.target );
-							}
-						});
-					}, { rootMargin: '200px 0px 200px 0px' } );
-					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
-						lazyloadBackgroundObserver.observe( lazyloadBackground );
-					} );
-				};
-				const events = [
-					'DOMContentLoaded',
-					'elementor/lazyload/observe',
-				];
-				events.forEach( ( event ) => {
-					document.addEventListener( event, lazyloadRunObserver );
-				} );
-			</script>
+
 			<script id="astra-theme-js-js-extra">
 var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"","is_scroll_to_top":"","is_header_footer_builder_active":"1","responsive_cart_click":"flyout","is_dark_palette":""};
 </script>
